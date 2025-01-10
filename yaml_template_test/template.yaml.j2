@@ -1,0 +1,4 @@
+{% for item in data -%}
+- column: {{ item.column }}
+  rename_to: {{ item.rename_to }}
+{% endfor %}

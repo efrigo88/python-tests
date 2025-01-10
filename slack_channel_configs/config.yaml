@@ -1,0 +1,13 @@
+slack_channels:
+  - channel:
+      name: data-eng-alerts-dev
+      webhook: webhook_dev
+      username: username_dev
+  - channel:
+      name: data-eng-alerts-prod
+      webhook: webhook_prod
+      username: username_prod
+  - channel:
+      name: data-eng-alerts-test
+      webhook: webhook_test
+      username: username_test
