@@ -21,9 +21,11 @@ faker = "^33.3.0"
 flask = "^3.1.0"
 delta = "^0.4.2"
 delta-spark = "^3.3.0"
+black = {extras = ["jupyter"], version = "^24.10.0"}
+jupyter-black = "^0.4.0"
 
 [tool.poetry.dev-dependencies]
-black = "^23.1.0"
+black = ">=24.0.0"
 boto3 = "^1.24.48"
 flake8 = "^6.0.0"
 mypy = "^1.0.0"
