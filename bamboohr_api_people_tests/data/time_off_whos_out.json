@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1457,
+        "type": "timeOff",
+        "employeeId": 13,
+        "name": "Cheryl Barnet",
+        "start": "2025-01-16",
+        "end": "2025-01-17"
+    },
+    {
+        "id": 1458,
+        "type": "timeOff",
+        "employeeId": 14,
+        "name": "Maja Andev",
+        "start": "2025-01-17",
+        "end": "2025-01-18"
+    },
+    {
+        "id": 1643,
+        "type": "timeOff",
+        "employeeId": 10,
+        "name": "Ryota Saito",
+        "start": "2025-01-17",
+        "end": "2025-01-17"
+    },
+    {
+        "id": 1459,
+        "type": "timeOff",
+        "employeeId": 15,
+        "name": "Trent Walsh",
+        "start": "2025-01-18",
+        "end": "2025-01-19"
+    },
+    {
+        "id": 1460,
+        "type": "timeOff",
+        "employeeId": 16,
+        "name": "Jake Bryan",
+        "start": "2025-01-19",
+        "end": "2025-01-20"
+    },
+    {
+        "id": 1461,
+        "type": "timeOff",
+        "employeeId": 17,
+        "name": "Dorothy Chou",
+        "start": "2025-01-20",
+        "end": "2025-01-21"
+    },
+    {
+        "id": 1469,
+        "type": "timeOff",
+        "employeeId": 9,
+        "name": "Jennifer Caldwell",
+        "start": "2025-01-28",
+        "end": "2025-01-29"
+    },
+    {
+        "id": 1470,
+        "type": "timeOff",
+        "employeeId": 10,
+        "name": "Ryota Saito",
+        "start": "2025-01-29",
+        "end": "2025-01-30"
+    },
+    {
+        "id": 1471,
+        "type": "timeOff",
+        "employeeId": 11,
+        "name": "Daniel Vance",
+        "start": "2025-01-30",
+        "end": "2025-01-31"
+    },
+    {
+        "id": 1472,
+        "type": "timeOff",
+        "employeeId": 12,
+        "name": "Eric Asture",
+        "start": "2025-01-31",
+        "end": "2025-02-01"
+    }
+]
