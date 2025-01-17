@@ -1,0 +1,80 @@
+{
+    "timeOffTypes": [
+        {
+            "id": "78",
+            "name": "Vacation",
+            "units": "hours",
+            "color": null,
+            "icon": "palm-trees"
+        },
+        {
+            "id": "79",
+            "name": "Sick",
+            "units": "hours",
+            "color": "eef448",
+            "icon": "band-aid"
+        },
+        {
+            "id": "82",
+            "name": "COVID-19 Related Absence",
+            "units": "hours",
+            "color": "e8454d",
+            "icon": "time-off-calendar"
+        },
+        {
+            "id": "77",
+            "name": "Bereavement",
+            "units": "days",
+            "color": "6a6a6a",
+            "icon": "time-off-luggage"
+        },
+        {
+            "id": "81",
+            "name": "Comp/In Lieu Time",
+            "units": "hours",
+            "color": "b185da",
+            "icon": "time-off-luggage"
+        },
+        {
+            "id": "80",
+            "name": "FMLA",
+            "units": "hours",
+            "color": "56afdd",
+            "icon": "family"
+        }
+    ],
+    "defaultHours": [
+        {
+            "name": "Saturday",
+            "amount": "0"
+        },
+        {
+            "name": "Sunday",
+            "amount": "0"
+        },
+        {
+            "name": "default",
+            "amount": "8"
+        },
+        {
+            "name": "Monday",
+            "amount": "8"
+        },
+        {
+            "name": "Tuesday",
+            "amount": "8"
+        },
+        {
+            "name": "Wednesday",
+            "amount": "8"
+        },
+        {
+            "name": "Thursday",
+            "amount": "8"
+        },
+        {
+            "name": "Friday",
+            "amount": "8"
+        }
+    ]
+}

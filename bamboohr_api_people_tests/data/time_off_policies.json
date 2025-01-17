@@ -1,0 +1,100 @@
+[
+    {
+        "id": 2,
+        "timeOffTypeId": 77,
+        "name": "Bereavement Flexible Policy",
+        "effectiveDate": null,
+        "type": "discretionary"
+    },
+    {
+        "id": 1,
+        "timeOffTypeId": 77,
+        "name": "Bereavement Manual Policy",
+        "effectiveDate": null,
+        "type": "manual"
+    },
+    {
+        "id": 10,
+        "timeOffTypeId": 81,
+        "name": "Comp/In Lieu Time Flexible Policy",
+        "effectiveDate": null,
+        "type": "discretionary"
+    },
+    {
+        "id": 9,
+        "timeOffTypeId": 81,
+        "name": "Comp/In Lieu Time Manual Policy",
+        "effectiveDate": null,
+        "type": "manual"
+    },
+    {
+        "id": 14,
+        "timeOffTypeId": 82,
+        "name": "COVID-19 Related Absence Flexible Policy",
+        "effectiveDate": null,
+        "type": "discretionary"
+    },
+    {
+        "id": 13,
+        "timeOffTypeId": 82,
+        "name": "COVID-19 Related Absence Manual Policy",
+        "effectiveDate": null,
+        "type": "manual"
+    },
+    {
+        "id": 8,
+        "timeOffTypeId": 80,
+        "name": "FMLA Flexible Policy",
+        "effectiveDate": null,
+        "type": "discretionary"
+    },
+    {
+        "id": 7,
+        "timeOffTypeId": 80,
+        "name": "FMLA Manual Policy",
+        "effectiveDate": null,
+        "type": "manual"
+    },
+    {
+        "id": 6,
+        "timeOffTypeId": 79,
+        "name": "Sick Flexible Policy",
+        "effectiveDate": null,
+        "type": "discretionary"
+    },
+    {
+        "id": 11,
+        "timeOffTypeId": 79,
+        "name": "Sick Full-Time",
+        "effectiveDate": null,
+        "type": "accruing"
+    },
+    {
+        "id": 5,
+        "timeOffTypeId": 79,
+        "name": "Sick Manual Policy",
+        "effectiveDate": null,
+        "type": "manual"
+    },
+    {
+        "id": 4,
+        "timeOffTypeId": 78,
+        "name": "Vacation Flexible Policy",
+        "effectiveDate": null,
+        "type": "discretionary"
+    },
+    {
+        "id": 12,
+        "timeOffTypeId": 78,
+        "name": "Vacation Full-Time",
+        "effectiveDate": null,
+        "type": "accruing"
+    },
+    {
+        "id": 3,
+        "timeOffTypeId": 78,
+        "name": "Vacation Manual Policy",
+        "effectiveDate": null,
+        "type": "manual"
+    }
+]
