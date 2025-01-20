@@ -1,0 +1,769 @@
+{
+    "title": "employees-supervisors",
+    "fields": [
+        {
+            "id": "firstName",
+            "type": "text",
+            "name": "First Name"
+        },
+        {
+            "id": "lastName",
+            "type": "text",
+            "name": "Last Name"
+        },
+        {
+            "id": "supervisor",
+            "type": "text",
+            "name": "Supervisor name"
+        },
+        {
+            "id": "supervisorEId",
+            "type": "text",
+            "name": "Supervisor EID"
+        }
+    ],
+    "employees": [
+        {
+            "id": "4",
+            "firstName": "Charlotte",
+            "lastName": "Abbott",
+            "supervisor": "Caldwell, Jennifer",
+            "supervisorEId": "9"
+        },
+        {
+            "id": "5",
+            "firstName": "Ashley",
+            "lastName": "Adams",
+            "supervisor": "Caldwell, Jennifer",
+            "supervisorEId": "9"
+        },
+        {
+            "id": "6",
+            "firstName": "Christina",
+            "lastName": "Agluinda",
+            "supervisor": "Caldwell, Jennifer",
+            "supervisorEId": "9"
+        },
+        {
+            "id": "7",
+            "firstName": "Shannon",
+            "lastName": "Anderson",
+            "supervisor": "Caldwell, Jennifer",
+            "supervisorEId": "9"
+        },
+        {
+            "id": "8",
+            "firstName": "nicolas",
+            "lastName": "buzzano",
+            "supervisor": null,
+            "supervisorEId": null
+        },
+        {
+            "id": "9",
+            "firstName": "Jennifer",
+            "lastName": "Caldwell",
+            "supervisor": "buzzano, nicolas",
+            "supervisorEId": "8"
+        },
+        {
+            "id": "10",
+            "firstName": "Ryota",
+            "lastName": "Saito",
+            "supervisor": "buzzano, nicolas",
+            "supervisorEId": "8"
+        },
+        {
+            "id": "11",
+            "firstName": "Daniel",
+            "lastName": "Vance",
+            "supervisor": "buzzano, nicolas",
+            "supervisorEId": "8"
+        },
+        {
+            "id": "12",
+            "firstName": "Eric",
+            "lastName": "Asture",
+            "supervisor": "buzzano, nicolas",
+            "supervisorEId": "8"
+        },
+        {
+            "id": "13",
+            "firstName": "Cheryl",
+            "lastName": "Barnet",
+            "supervisor": "buzzano, nicolas",
+            "supervisorEId": "8"
+        },
+        {
+            "id": "14",
+            "firstName": "Maja",
+            "lastName": "Andev",
+            "supervisor": "buzzano, nicolas",
+            "supervisorEId": "8"
+        },
+        {
+            "id": "15",
+            "firstName": "Trent",
+            "lastName": "Walsh",
+            "supervisor": "buzzano, nicolas",
+            "supervisorEId": "8"
+        },
+        {
+            "id": "16",
+            "firstName": "Jake",
+            "lastName": "Bryan",
+            "supervisor": "buzzano, nicolas",
+            "supervisorEId": "8"
+        },
+        {
+            "id": "17",
+            "firstName": "Dorothy",
+            "lastName": "Chou",
+            "supervisor": "buzzano, nicolas",
+            "supervisorEId": "8"
+        },
+        {
+            "id": "18",
+            "firstName": "Javier",
+            "lastName": "Cruz",
+            "supervisor": "Walsh, Trent",
+            "supervisorEId": "15"
+        },
+        {
+            "id": "19",
+            "firstName": "Shelly",
+            "lastName": "Cluff",
+            "supervisor": "Saito, Ryota",
+            "supervisorEId": "10"
+        },
+        {
+            "id": "22",
+            "firstName": "Dillon (Remote)",
+            "lastName": "Park",
+            "supervisor": "Abbott, Charlotte",
+            "supervisorEId": "4"
+        },
+        {
+            "id": "23",
+            "firstName": "Darlene",
+            "lastName": "Handley",
+            "supervisor": "Abbott, Charlotte",
+            "supervisorEId": "4"
+        },
+        {
+            "id": "24",
+            "firstName": "Zack",
+            "lastName": "Miller",
+            "supervisor": "Abbott, Charlotte",
+            "supervisorEId": "4"
+        },
+        {
+            "id": "25",
+            "firstName": "Philip",
+            "lastName": "Wagener",
+            "supervisor": "Abbott, Charlotte",
+            "supervisorEId": "4"
+        },
+        {
+            "id": "26",
+            "firstName": "Amy",
+            "lastName": "Granger",
+            "supervisor": "Abbott, Charlotte",
+            "supervisorEId": "4"
+        },
+        {
+            "id": "27",
+            "firstName": "Debra",
+            "lastName": "Tuescher",
+            "supervisor": "Vance, Daniel",
+            "supervisorEId": "11"
+        },
+        {
+            "id": "28",
+            "firstName": "Andy",
+            "lastName": "Graves",
+            "supervisor": "Abbott, Charlotte",
+            "supervisorEId": "4"
+        },
+        {
+            "id": "29",
+            "firstName": "Catherine",
+            "lastName": "Jones",
+            "supervisor": "Abbott, Charlotte",
+            "supervisorEId": "4"
+        },
+        {
+            "id": "30",
+            "firstName": "Corey",
+            "lastName": "Ross",
+            "supervisor": "Walsh, Trent",
+            "supervisorEId": "15"
+        },
+        {
+            "id": "31",
+            "firstName": "Sally",
+            "lastName": "Harmon",
+            "supervisor": "Abbott, Charlotte",
+            "supervisorEId": "4"
+        },
+        {
+            "id": "32",
+            "firstName": "Carly",
+            "lastName": "Seymour",
+            "supervisor": "Vance, Daniel",
+            "supervisorEId": "11"
+        },
+        {
+            "id": "33",
+            "firstName": "Erin",
+            "lastName": "Farr",
+            "supervisor": "Bryan, Jake",
+            "supervisorEId": "16"
+        },
+        {
+            "id": "34",
+            "firstName": "Emily",
+            "lastName": "Gomez",
+            "supervisor": "Olsen, Melany",
+            "supervisorEId": "36"
+        },
+        {
+            "id": "35",
+            "firstName": "Aaron",
+            "lastName": "Eckerly",
+            "supervisor": "Olsen, Melany",
+            "supervisorEId": "36"
+        },
+        {
+            "id": "36",
+            "firstName": "Melany",
+            "lastName": "Olsen",
+            "supervisor": "Barnet, Cheryl",
+            "supervisorEId": "13"
+        },
+        {
+            "id": "37",
+            "firstName": "Whitney",
+            "lastName": "Webster",
+            "supervisor": "Adams, Ashley",
+            "supervisorEId": "5"
+        },
+        {
+            "id": "38",
+            "firstName": "Marrissa",
+            "lastName": "Mellon",
+            "supervisor": "Petty, Karin",
+            "supervisorEId": "69"
+        },
+        {
+            "id": "39",
+            "firstName": "Paige",
+            "lastName": "Rasmussen",
+            "supervisor": "Raynott, Liam",
+            "supervisorEId": "57"
+        },
+        {
+            "id": "40",
+            "firstName": "Kelli",
+            "lastName": "Crandle",
+            "supervisor": "Jackson, Robert",
+            "supervisorEId": "49"
+        },
+        {
+            "id": "41",
+            "firstName": "Craig",
+            "lastName": "Jenkins",
+            "supervisor": "Granger, Amy",
+            "supervisorEId": "26"
+        },
+        {
+            "id": "42",
+            "firstName": "Anthony",
+            "lastName": "Larsen",
+            "supervisor": "Hill, Cameron",
+            "supervisorEId": "74"
+        },
+        {
+            "id": "43",
+            "firstName": "Adam",
+            "lastName": "Hunter",
+            "supervisor": "Asture, Eric",
+            "supervisorEId": "12"
+        },
+        {
+            "id": "44",
+            "firstName": "Marie",
+            "lastName": "Hamm",
+            "supervisor": "Hill, Cameron",
+            "supervisorEId": "74"
+        },
+        {
+            "id": "45",
+            "firstName": "Maria",
+            "lastName": "Karr",
+            "supervisor": "Reed, Norma",
+            "supervisorEId": "105"
+        },
+        {
+            "id": "46",
+            "firstName": "Diana",
+            "lastName": "O'Connor",
+            "supervisor": "Petty, Karin",
+            "supervisorEId": "69"
+        },
+        {
+            "id": "47",
+            "firstName": "Michael",
+            "lastName": "Jarsdel",
+            "supervisor": "Andev, Maja",
+            "supervisorEId": "14"
+        },
+        {
+            "id": "48",
+            "firstName": "Kaelee",
+            "lastName": "Hurst",
+            "supervisor": "Adams, Ashley",
+            "supervisorEId": "5"
+        },
+        {
+            "id": "49",
+            "firstName": "Robert",
+            "lastName": "Jackson",
+            "supervisor": "Vance, Daniel",
+            "supervisorEId": "11"
+        },
+        {
+            "id": "50",
+            "firstName": "John",
+            "lastName": "Quentin",
+            "supervisor": "Granger, Amy",
+            "supervisorEId": "26"
+        },
+        {
+            "id": "51",
+            "firstName": "Nathan",
+            "lastName": "Pazavich",
+            "supervisor": "Agluinda, Christina",
+            "supervisorEId": "6"
+        },
+        {
+            "id": "52",
+            "firstName": "Nate",
+            "lastName": "Walker",
+            "supervisor": "Vance, Daniel",
+            "supervisorEId": "11"
+        },
+        {
+            "id": "53",
+            "firstName": "Clark",
+            "lastName": "Fuller",
+            "supervisor": "Bryan, Jake",
+            "supervisorEId": "16"
+        },
+        {
+            "id": "54",
+            "firstName": "Morgan",
+            "lastName": "Edwards",
+            "supervisor": "Hadaway, Lindsay",
+            "supervisorEId": "56"
+        },
+        {
+            "id": "55",
+            "firstName": "Gale",
+            "lastName": "Sachevich",
+            "supervisor": "Chou, Dorothy",
+            "supervisorEId": "17"
+        },
+        {
+            "id": "56",
+            "firstName": "Lindsay",
+            "lastName": "Hadaway",
+            "supervisor": "Asture, Eric",
+            "supervisorEId": "12"
+        },
+        {
+            "id": "57",
+            "firstName": "Liam",
+            "lastName": "Raynott",
+            "supervisor": "Jarsdel, Michael",
+            "supervisorEId": "47"
+        },
+        {
+            "id": "58",
+            "firstName": "Tiffany",
+            "lastName": "Vincent",
+            "supervisor": "Walsh, Trent",
+            "supervisorEId": "15"
+        },
+        {
+            "id": "59",
+            "firstName": "Warren",
+            "lastName": "Poole",
+            "supervisor": "Abbott, Charlotte",
+            "supervisorEId": "4"
+        },
+        {
+            "id": "60",
+            "firstName": "Yasmine",
+            "lastName": "Dean",
+            "supervisor": "Karren, Ellen",
+            "supervisorEId": "95"
+        },
+        {
+            "id": "61",
+            "firstName": "Dwight",
+            "lastName": "Goodman",
+            "supervisor": "Anderson, Shannon",
+            "supervisorEId": "7"
+        },
+        {
+            "id": "62",
+            "firstName": "Alan",
+            "lastName": "Weston",
+            "supervisor": "Walsh, Trent",
+            "supervisorEId": "15"
+        },
+        {
+            "id": "63",
+            "firstName": "Lewis",
+            "lastName": "Shelton",
+            "supervisor": "Adams, Ashley",
+            "supervisorEId": "5"
+        },
+        {
+            "id": "64",
+            "firstName": "Emil",
+            "lastName": "Vaselvee",
+            "supervisor": "Walker, Nate",
+            "supervisorEId": "52"
+        },
+        {
+            "id": "65",
+            "firstName": "Shawn",
+            "lastName": "Williams",
+            "supervisor": "Karren, Ellen",
+            "supervisorEId": "95"
+        },
+        {
+            "id": "66",
+            "firstName": "Susan",
+            "lastName": "Roberts",
+            "supervisor": "Karren, Ellen",
+            "supervisorEId": "95"
+        },
+        {
+            "id": "67",
+            "firstName": "Howard",
+            "lastName": "Smith",
+            "supervisor": "Hill, Cameron",
+            "supervisorEId": "74"
+        },
+        {
+            "id": "68",
+            "firstName": "Antonio",
+            "lastName": "Kruz",
+            "supervisor": "Walsh, Trent",
+            "supervisorEId": "15"
+        },
+        {
+            "id": "69",
+            "firstName": "Karin",
+            "lastName": "Petty",
+            "supervisor": "Vance, Daniel",
+            "supervisorEId": "11"
+        },
+        {
+            "id": "70",
+            "firstName": "Omar",
+            "lastName": "Waldwin",
+            "supervisor": "Olsen, Melany",
+            "supervisorEId": "36"
+        },
+        {
+            "id": "71",
+            "firstName": "Zeta",
+            "lastName": "Ramirez",
+            "supervisor": "Raynott, Liam",
+            "supervisorEId": "57"
+        },
+        {
+            "id": "72",
+            "firstName": "Nelson",
+            "lastName": "Elliott",
+            "supervisor": "Karren, Ellen",
+            "supervisorEId": "95"
+        },
+        {
+            "id": "73",
+            "firstName": "Kellie",
+            "lastName": "Turner",
+            "supervisor": "Walsh, Trent",
+            "supervisorEId": "15"
+        },
+        {
+            "id": "74",
+            "firstName": "Cameron",
+            "lastName": "Hill",
+            "supervisor": "Jarsdel, Michael",
+            "supervisorEId": "47"
+        },
+        {
+            "id": "75",
+            "firstName": "Adam",
+            "lastName": "Holt",
+            "supervisor": "Agluinda, Christina",
+            "supervisorEId": "6"
+        },
+        {
+            "id": "76",
+            "firstName": "Kennith",
+            "lastName": "Oakley",
+            "supervisor": "Petty, Karin",
+            "supervisorEId": "69"
+        },
+        {
+            "id": "77",
+            "firstName": "Dallon",
+            "lastName": "Khristensen",
+            "supervisor": "Fernandez, Michael",
+            "supervisorEId": "99"
+        },
+        {
+            "id": "78",
+            "firstName": "Haleigh",
+            "lastName": "Girard",
+            "supervisor": "Reed, Norma",
+            "supervisorEId": "105"
+        },
+        {
+            "id": "79",
+            "firstName": "Trey",
+            "lastName": "Pickard",
+            "supervisor": "Karren, Ellen",
+            "supervisorEId": "95"
+        },
+        {
+            "id": "80",
+            "firstName": "Jeff",
+            "lastName": "Tobler",
+            "supervisor": "Asture, Eric",
+            "supervisorEId": "12"
+        },
+        {
+            "id": "81",
+            "firstName": "Michelle",
+            "lastName": "Hannon",
+            "supervisor": "Jackson, Robert",
+            "supervisorEId": "49"
+        },
+        {
+            "id": "82",
+            "firstName": "Patsy",
+            "lastName": "Jaramillo",
+            "supervisor": "Jackson, Robert",
+            "supervisorEId": "49"
+        },
+        {
+            "id": "83",
+            "firstName": "Preston",
+            "lastName": "Wilder",
+            "supervisor": "Walker, Nate",
+            "supervisorEId": "52"
+        },
+        {
+            "id": "84",
+            "firstName": "Kevin",
+            "lastName": "Powell",
+            "supervisor": "Walsh, Trent",
+            "supervisorEId": "15"
+        },
+        {
+            "id": "85",
+            "firstName": "Brandon",
+            "lastName": "Bell",
+            "supervisor": "Agluinda, Christina",
+            "supervisorEId": "6"
+        },
+        {
+            "id": "86",
+            "firstName": "Leslie",
+            "lastName": "Kay",
+            "supervisor": "Jackson, Robert",
+            "supervisorEId": "49"
+        },
+        {
+            "id": "87",
+            "firstName": "Kristina",
+            "lastName": "Pace",
+            "supervisor": "Raynott, Liam",
+            "supervisorEId": "57"
+        },
+        {
+            "id": "88",
+            "firstName": "Samson",
+            "lastName": "Walters",
+            "supervisor": "Pickard, Trey",
+            "supervisorEId": "79"
+        },
+        {
+            "id": "89",
+            "firstName": "Madison",
+            "lastName": "Laker",
+            "supervisor": "Petty, Karin",
+            "supervisorEId": "69"
+        },
+        {
+            "id": "90",
+            "firstName": "Jon",
+            "lastName": "Richards",
+            "supervisor": "Miller, Zack",
+            "supervisorEId": "24"
+        },
+        {
+            "id": "91",
+            "firstName": "Will",
+            "lastName": "Woodward",
+            "supervisor": "Bryan, Jake",
+            "supervisorEId": "16"
+        },
+        {
+            "id": "92",
+            "firstName": "Dustin",
+            "lastName": "Wells",
+            "supervisor": "Chou, Dorothy",
+            "supervisorEId": "17"
+        },
+        {
+            "id": "93",
+            "firstName": "Caitlin",
+            "lastName": "Korbett",
+            "supervisor": "Chou, Dorothy",
+            "supervisorEId": "17"
+        },
+        {
+            "id": "94",
+            "firstName": "Alex",
+            "lastName": "Southworth",
+            "supervisor": "Reed, Norma",
+            "supervisorEId": "105"
+        },
+        {
+            "id": "95",
+            "firstName": "Ellen",
+            "lastName": "Karren",
+            "supervisor": "Barnet, Cheryl",
+            "supervisorEId": "13"
+        },
+        {
+            "id": "96",
+            "firstName": "Yun",
+            "lastName": "Xu",
+            "supervisor": "Miller, Zack",
+            "supervisorEId": "24"
+        },
+        {
+            "id": "97",
+            "firstName": "Chad",
+            "lastName": "Zurdette",
+            "supervisor": "Walker, Nate",
+            "supervisorEId": "52"
+        },
+        {
+            "id": "98",
+            "firstName": "Nathan",
+            "lastName": "Kelly",
+            "supervisor": "Karren, Ellen",
+            "supervisorEId": "95"
+        },
+        {
+            "id": "99",
+            "firstName": "Michael",
+            "lastName": "Fernandez",
+            "supervisor": "Vance, Daniel",
+            "supervisorEId": "11"
+        },
+        {
+            "id": "100",
+            "firstName": "John",
+            "lastName": "Michaels",
+            "supervisor": "Pickard, Trey",
+            "supervisorEId": "79"
+        },
+        {
+            "id": "101",
+            "firstName": "Anthony",
+            "lastName": "Diaz",
+            "supervisor": "Reed, Norma",
+            "supervisorEId": "105"
+        },
+        {
+            "id": "102",
+            "firstName": "Michael",
+            "lastName": "Romney",
+            "supervisor": "Anderson, Shannon",
+            "supervisorEId": "7"
+        },
+        {
+            "id": "103",
+            "firstName": "Cameron",
+            "lastName": "Harris",
+            "supervisor": "Pickard, Trey",
+            "supervisorEId": "79"
+        },
+        {
+            "id": "104",
+            "firstName": "Jake",
+            "lastName": "Huang",
+            "supervisor": "Abbott, Charlotte",
+            "supervisorEId": "4"
+        },
+        {
+            "id": "105",
+            "firstName": "Norma",
+            "lastName": "Reed",
+            "supervisor": "Andev, Maja",
+            "supervisorEId": "14"
+        },
+        {
+            "id": "106",
+            "firstName": "James",
+            "lastName": "Harris",
+            "supervisor": null,
+            "supervisorEId": null
+        },
+        {
+            "id": "107",
+            "firstName": "Holly",
+            "lastName": "Hartley",
+            "supervisor": "Andev, Maja",
+            "supervisorEId": "14"
+        },
+        {
+            "id": "108",
+            "firstName": "Clarissa",
+            "lastName": "Jones",
+            "supervisor": null,
+            "supervisorEId": null
+        },
+        {
+            "id": "109",
+            "firstName": "Samantha",
+            "lastName": "Simmons",
+            "supervisor": null,
+            "supervisorEId": null
+        },
+        {
+            "id": "110",
+            "firstName": "Katrina",
+            "lastName": "Cox",
+            "supervisor": null,
+            "supervisorEId": null
+        },
+        {
+            "id": "111",
+            "firstName": "Jeremy",
+            "lastName": "Steel",
+            "supervisor": null,
+            "supervisorEId": null
+        }
+    ]
+}
