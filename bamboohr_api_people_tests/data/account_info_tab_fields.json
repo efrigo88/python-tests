@@ -1,0 +1,1093 @@
+[
+    {
+        "alias": "jobInfo",
+        "fields": [
+            {
+                "id": 4047,
+                "name": "Job Information: Date",
+                "alias": "date",
+                "type": "date"
+            },
+            {
+                "id": 18,
+                "name": "Location",
+                "alias": "location",
+                "type": "list"
+            },
+            {
+                "id": 4,
+                "name": "Department",
+                "alias": "department",
+                "type": "list"
+            },
+            {
+                "id": 1355,
+                "name": "Division",
+                "alias": "division",
+                "type": "list"
+            },
+            {
+                "id": 17,
+                "name": "Job Title",
+                "alias": "jobTitle",
+                "type": "list"
+            },
+            {
+                "id": 91,
+                "name": "Reporting to",
+                "alias": "reportsTo",
+                "type": "employee"
+            }
+        ]
+    },
+    {
+        "alias": "employmentStatus",
+        "fields": [
+            {
+                "id": 1936,
+                "name": "Employment Status: Date",
+                "alias": "date",
+                "type": "date"
+            },
+            {
+                "id": 16,
+                "name": "Employment Status",
+                "alias": "employmentStatus",
+                "type": "list"
+            },
+            {
+                "id": 4046,
+                "name": "Employment status comments",
+                "alias": "comment",
+                "type": "textarea"
+            },
+            {
+                "id": 4314,
+                "name": "Termination Reason",
+                "alias": "terminationReasonId",
+                "type": "list"
+            },
+            {
+                "id": 4313,
+                "name": "Termination Type",
+                "alias": "terminationTypeId",
+                "type": "list"
+            },
+            {
+                "id": 4315,
+                "name": "Eligible For Re-hire",
+                "alias": "terminationRehireId",
+                "type": "list"
+            },
+            {
+                "id": 4509,
+                "name": "Regrettable or Non-Regrettable",
+                "alias": "terminationRegrettableId",
+                "type": "list"
+            }
+        ]
+    },
+    {
+        "alias": "compensation",
+        "fields": [
+            {
+                "id": 4021,
+                "name": "Compensation: Date",
+                "alias": "startDate",
+                "type": "date"
+            },
+            {
+                "id": 19,
+                "name": "Pay rate",
+                "alias": "rate",
+                "type": "currency"
+            },
+            {
+                "id": 156,
+                "name": "Pay type",
+                "alias": "type",
+                "type": "pay_type"
+            },
+            {
+                "id": 4042,
+                "name": "Overtime Status",
+                "alias": "exempt",
+                "type": "exempt"
+            },
+            {
+                "id": 4017,
+                "name": "Compensation Change Reason",
+                "alias": "reason",
+                "type": "list"
+            },
+            {
+                "id": 4045,
+                "name": "Compensation comments",
+                "alias": "comment",
+                "type": "textarea"
+            },
+            {
+                "id": 4330,
+                "name": "Paid per",
+                "alias": "paidPer",
+                "type": "paid_per"
+            },
+            {
+                "id": 4386,
+                "name": "Pay Schedule",
+                "alias": "paySchedule",
+                "type": "list"
+            },
+            {
+                "id": 4403,
+                "name": "Overtime Rate",
+                "alias": "overtimeRate",
+                "type": "currency"
+            }
+        ]
+    },
+    {
+        "alias": "dependents",
+        "fields": [
+            {
+                "id": 1923,
+                "name": "Dependent First Name",
+                "alias": "firstName",
+                "type": "text"
+            },
+            {
+                "id": 1925,
+                "name": "Dependent Middle Name",
+                "alias": "middleName",
+                "type": "text"
+            },
+            {
+                "id": 1924,
+                "name": "Dependent Last Name",
+                "alias": "lastName",
+                "type": "text"
+            },
+            {
+                "id": 1926,
+                "name": "Dependent Relationship",
+                "alias": "relationship",
+                "type": "relationship"
+            },
+            {
+                "id": 1927,
+                "name": "Dependent Gender",
+                "alias": "gender",
+                "type": "gender"
+            },
+            {
+                "id": 1929,
+                "name": "Dependent Street 1",
+                "alias": "addressLine1",
+                "type": "text"
+            },
+            {
+                "id": 1930,
+                "name": "Dependent Street 2",
+                "alias": "addressLine2",
+                "type": "text"
+            },
+            {
+                "id": 1933,
+                "name": "Dependent SSN",
+                "alias": "ssn",
+                "type": "ssn"
+            },
+            {
+                "id": 1928,
+                "name": "Dependent Birth Date",
+                "alias": "dateOfBirth",
+                "type": "date"
+            },
+            {
+                "id": 1931,
+                "name": "Dependent City",
+                "alias": "city",
+                "type": "text"
+            },
+            {
+                "id": 1932,
+                "name": "Dependent State",
+                "alias": "state",
+                "type": "state"
+            },
+            {
+                "id": 1935,
+                "name": "Dependent Home Phone",
+                "alias": "homePhone",
+                "type": "phone"
+            },
+            {
+                "id": 3992,
+                "name": "Dependent Country",
+                "alias": "country",
+                "type": "country"
+            },
+            {
+                "id": 1934,
+                "name": "Dependent ZIP",
+                "alias": "zipcode",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "alias": "contacts",
+        "fields": [
+            {
+                "id": 158,
+                "name": "Emergency Contact Name",
+                "alias": "name",
+                "type": "text"
+            },
+            {
+                "id": 160,
+                "name": "Emergency Contact Relationship",
+                "alias": "relationship",
+                "type": "list"
+            },
+            {
+                "id": 159,
+                "name": "Emergency Contact Home Phone",
+                "alias": "homePhone",
+                "type": "phone"
+            },
+            {
+                "id": 691,
+                "name": "Emergency Contact Street 1",
+                "alias": "addressLine1",
+                "type": "text"
+            },
+            {
+                "id": 2124,
+                "name": "Emergency Contact Street 2",
+                "alias": "addressLine2",
+                "type": "text"
+            },
+            {
+                "id": 693,
+                "name": "Emergency Contact Mobile Phone",
+                "alias": "mobilePhone",
+                "type": "phone"
+            },
+            {
+                "id": 2123,
+                "name": "Emergency Contact Email",
+                "alias": "email",
+                "type": "email"
+            },
+            {
+                "id": 689,
+                "name": "Emergency Contact ZIP Code",
+                "alias": "zipcode",
+                "type": "text"
+            },
+            {
+                "id": 692,
+                "name": "Emergency Contact City",
+                "alias": "city",
+                "type": "text"
+            },
+            {
+                "id": 690,
+                "name": "Emergency Contact State",
+                "alias": "state",
+                "type": "state"
+            },
+            {
+                "id": 3993,
+                "name": "Emergency Contact Country",
+                "alias": "country",
+                "type": "country"
+            },
+            {
+                "id": 4044,
+                "name": "Emergency Contact Work Phone",
+                "alias": "workPhone",
+                "type": "phone"
+            },
+            {
+                "id": 4063,
+                "name": "Emergency Contact Work Ext",
+                "alias": "workPhoneExtension",
+                "type": "text"
+            },
+            {
+                "id": 4289,
+                "name": "Emergency Contact Primary",
+                "alias": "primaryContact",
+                "type": "checkbox"
+            }
+        ]
+    },
+    {
+        "alias": "emergencyContacts",
+        "fields": [
+            {
+                "id": 158,
+                "name": "Emergency Contact Name",
+                "alias": "name",
+                "type": "text"
+            },
+            {
+                "id": 160,
+                "name": "Emergency Contact Relationship",
+                "alias": "relationship",
+                "type": "list"
+            },
+            {
+                "id": 159,
+                "name": "Emergency Contact Home Phone",
+                "alias": "homePhone",
+                "type": "phone"
+            },
+            {
+                "id": 691,
+                "name": "Emergency Contact Street 1",
+                "alias": "addressLine1",
+                "type": "text"
+            },
+            {
+                "id": 2124,
+                "name": "Emergency Contact Street 2",
+                "alias": "addressLine2",
+                "type": "text"
+            },
+            {
+                "id": 693,
+                "name": "Emergency Contact Mobile Phone",
+                "alias": "mobilePhone",
+                "type": "phone"
+            },
+            {
+                "id": 2123,
+                "name": "Emergency Contact Email",
+                "alias": "email",
+                "type": "email"
+            },
+            {
+                "id": 689,
+                "name": "Emergency Contact ZIP Code",
+                "alias": "zipcode",
+                "type": "text"
+            },
+            {
+                "id": 692,
+                "name": "Emergency Contact City",
+                "alias": "city",
+                "type": "text"
+            },
+            {
+                "id": 690,
+                "name": "Emergency Contact State",
+                "alias": "state",
+                "type": "state"
+            },
+            {
+                "id": 3993,
+                "name": "Emergency Contact Country",
+                "alias": "country",
+                "type": "country"
+            },
+            {
+                "id": 4044,
+                "name": "Emergency Contact Work Phone",
+                "alias": "workPhone",
+                "type": "phone"
+            },
+            {
+                "id": 4063,
+                "name": "Emergency Contact Work Ext",
+                "alias": "workPhoneExtension",
+                "type": "text"
+            },
+            {
+                "id": 4289,
+                "name": "Emergency Contact Primary",
+                "alias": "primaryContact",
+                "type": "checkbox"
+            }
+        ]
+    },
+    {
+        "alias": "earnings",
+        "fields": [
+            {
+                "id": 4148,
+                "name": "Earnings: Date",
+                "alias": "date",
+                "type": "date"
+            },
+            {
+                "id": 4149,
+                "name": "Earnings: Prior Year W2/K1",
+                "alias": "priorYear",
+                "type": "currency"
+            }
+        ]
+    },
+    {
+        "alias": "bonus",
+        "fields": [
+            {
+                "id": 4151,
+                "name": "Bonus: Date",
+                "alias": "date",
+                "type": "date"
+            },
+            {
+                "id": 4152,
+                "name": "Bonus: Amount",
+                "alias": "amount",
+                "type": "currency"
+            },
+            {
+                "id": 4153,
+                "name": "Bonus: Reason",
+                "alias": "reason",
+                "type": "list"
+            },
+            {
+                "id": 4154,
+                "name": "Bonus: Comment",
+                "alias": "comment",
+                "type": "textarea"
+            }
+        ]
+    },
+    {
+        "alias": "commission",
+        "fields": [
+            {
+                "id": 4156,
+                "name": "Commission: Date",
+                "alias": "date",
+                "type": "date"
+            },
+            {
+                "id": 4157,
+                "name": "Commission: Amount",
+                "alias": "amount",
+                "type": "currency"
+            },
+            {
+                "id": 4158,
+                "name": "Commission: Comment",
+                "alias": "comment",
+                "type": "textarea"
+            }
+        ]
+    },
+    {
+        "alias": "benefit_class",
+        "fields": [
+            {
+                "id": 4164,
+                "name": "Benefit Class: Date",
+                "alias": "date",
+                "type": "date"
+            },
+            {
+                "id": 4165,
+                "name": "Benefit Class: Class",
+                "alias": "class",
+                "type": "list"
+            },
+            {
+                "id": 4166,
+                "name": "Benefit Class: Change Reason",
+                "alias": "changeReason",
+                "type": "list"
+            }
+        ]
+    },
+    {
+        "alias": "employeeVisas",
+        "fields": [
+            {
+                "id": 4169,
+                "name": "Visa:Date",
+                "alias": "date",
+                "type": "date"
+            },
+            {
+                "id": 4170,
+                "name": "Visa",
+                "alias": "visaType",
+                "type": "list"
+            },
+            {
+                "id": 4171,
+                "name": "Issuing country",
+                "alias": "country",
+                "type": "country"
+            },
+            {
+                "id": 4172,
+                "name": "Issued",
+                "alias": "issued",
+                "type": "date"
+            },
+            {
+                "id": 4173,
+                "name": "Expiration",
+                "alias": "expires",
+                "type": "date"
+            },
+            {
+                "id": 4174,
+                "name": "Note",
+                "alias": "note",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "alias": "employeeEducation",
+        "fields": [
+            {
+                "id": 4293,
+                "name": "College/Institution",
+                "alias": "school",
+                "type": "text"
+            },
+            {
+                "id": 4297,
+                "name": "Employee Education: Start Date",
+                "alias": "startDate",
+                "type": "date"
+            },
+            {
+                "id": 4298,
+                "name": "Employee Education: End Date",
+                "alias": "endDate",
+                "type": "date"
+            },
+            {
+                "id": 4294,
+                "name": "Degree",
+                "alias": "degree",
+                "type": "list"
+            },
+            {
+                "id": 4295,
+                "name": "Major/Specialization",
+                "alias": "major",
+                "type": "text"
+            },
+            {
+                "id": 4296,
+                "name": "GPA",
+                "alias": "gpa",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "alias": "employeePassports",
+        "fields": [
+            {
+                "id": 4391,
+                "name": "Passport Number",
+                "alias": "passportNumber",
+                "type": "passport_number"
+            },
+            {
+                "id": 4392,
+                "name": "Passport: Issued Date",
+                "alias": "issuedDate",
+                "type": "passport_issued"
+            },
+            {
+                "id": 4393,
+                "name": "Passport: Expiry Date",
+                "alias": "expiryDate",
+                "type": "passport_expiry"
+            },
+            {
+                "id": 4396,
+                "name": "Issuing Country",
+                "alias": "issuingCountry",
+                "type": "country"
+            }
+        ]
+    },
+    {
+        "alias": "employeeDriverLicenses",
+        "fields": [
+            {
+                "id": 4417,
+                "name": "Driver License: #",
+                "alias": "license",
+                "type": "text"
+            },
+            {
+                "id": 4418,
+                "name": "Driver License: State",
+                "alias": "state",
+                "type": "state"
+            },
+            {
+                "id": 4419,
+                "name": "Driver License: Expiration",
+                "alias": "expirationDate",
+                "type": "date"
+            },
+            {
+                "id": 4420,
+                "name": "Driver License: Classification",
+                "alias": "driverClassification",
+                "type": "list"
+            },
+            {
+                "id": 4421,
+                "name": "Driver License: DMV Violations ",
+                "alias": "dmvViolations",
+                "type": "int"
+            }
+        ]
+    },
+    {
+        "alias": "employeeCertifications",
+        "fields": [
+            {
+                "id": 4423,
+                "name": "Certifications: Title",
+                "alias": "title",
+                "type": "list"
+            },
+            {
+                "id": 4424,
+                "name": "Certifications: Completion Date",
+                "alias": "completionDate",
+                "type": "date"
+            },
+            {
+                "id": 4425,
+                "name": "Certifications: Number",
+                "alias": "certificationNumber",
+                "type": "text"
+            },
+            {
+                "id": 4426,
+                "name": "Certifications: Expiration Date",
+                "alias": "expirationDate",
+                "type": "date"
+            },
+            {
+                "id": 4427,
+                "name": "Certifications: Notes",
+                "alias": "notes",
+                "type": "textarea"
+            }
+        ]
+    },
+    {
+        "alias": "employeeStockOptions",
+        "fields": [
+            {
+                "id": 4429,
+                "name": "Stock Options: Grant Date",
+                "alias": "grantDate",
+                "type": "date"
+            },
+            {
+                "id": 4430,
+                "name": "Stock Options: # Options Granted",
+                "alias": "numberOptionsGranted",
+                "type": "text"
+            },
+            {
+                "id": 4431,
+                "name": "Stock Options: Option Price",
+                "alias": "optionPrice",
+                "type": "currency"
+            },
+            {
+                "id": 4432,
+                "name": "Stock Options: Vesting Date",
+                "alias": "vestingDate",
+                "type": "date"
+            },
+            {
+                "id": 4433,
+                "name": "Stock Options: Plan",
+                "alias": "plan",
+                "type": "list"
+            },
+            {
+                "id": 4434,
+                "name": "Stock Options: Comments",
+                "alias": "comments",
+                "type": "textarea"
+            }
+        ]
+    },
+    {
+        "alias": "employeeAssets",
+        "fields": [
+            {
+                "id": 4436,
+                "name": "Assets: Category",
+                "alias": "category",
+                "type": "list"
+            },
+            {
+                "id": 4437,
+                "name": "Assets: Description",
+                "alias": "description",
+                "type": "text"
+            },
+            {
+                "id": 4438,
+                "name": "Assets: Serial Number",
+                "alias": "serialNumber",
+                "type": "text"
+            },
+            {
+                "id": 4439,
+                "name": "Assets: Date Loaned",
+                "alias": "dateLoaned",
+                "type": "date"
+            },
+            {
+                "id": 4440,
+                "name": "Assets: Date Returned",
+                "alias": "dateReturned",
+                "type": "date"
+            },
+            {
+                "id": 4441,
+                "name": "Assets: Cost",
+                "alias": "cost",
+                "type": "currency"
+            },
+            {
+                "id": 4442,
+                "name": "Assets: Notes",
+                "alias": "notes",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "alias": "employeeCreditCards",
+        "fields": [
+            {
+                "id": 4380,
+                "name": "Card Type",
+                "alias": "cardType",
+                "type": "list"
+            },
+            {
+                "id": 4382,
+                "name": "Card #",
+                "alias": "numberLast4",
+                "type": "text"
+            },
+            {
+                "id": 4383,
+                "name": "Expiration Month",
+                "alias": "expirationMonth",
+                "type": "expiration_month"
+            },
+            {
+                "id": 4384,
+                "name": "Expiration Year",
+                "alias": "expirationYear",
+                "type": "expiration_year"
+            },
+            {
+                "id": 4385,
+                "name": "Limit",
+                "alias": "cardLimit",
+                "type": "currency"
+            }
+        ]
+    },
+    {
+        "alias": "employeeCovidTests",
+        "fields": [
+            {
+                "id": 4467,
+                "name": "Testing Tracker: Test Date",
+                "alias": "testDate",
+                "type": "date"
+            },
+            {
+                "id": 4468,
+                "name": "Testing Tracker: Results",
+                "alias": "results",
+                "type": "list"
+            },
+            {
+                "id": 4469,
+                "name": "Testing Tracker: Test Type",
+                "alias": "testType",
+                "type": "list"
+            },
+            {
+                "id": 4470,
+                "name": "Testing Tracker: Testing Reason",
+                "alias": "testingReason",
+                "type": "list"
+            },
+            {
+                "id": 4471,
+                "name": "Testing Tracker: Confirmed by HR",
+                "alias": "confirmedByHr",
+                "type": "checkbox"
+            },
+            {
+                "id": 4472,
+                "name": "Testing Tracker: Office Eligibility",
+                "alias": "officeEligibility",
+                "type": "checkbox"
+            },
+            {
+                "id": 4473,
+                "name": "Testing Tracker: Comments",
+                "alias": "comments",
+                "type": "textarea"
+            }
+        ]
+    },
+    {
+        "alias": "employeeCovidVaccinations",
+        "fields": [
+            {
+                "id": 4475,
+                "name": "Vaccination History: Vaccination Status",
+                "alias": "vaccinationStatus",
+                "type": "list"
+            },
+            {
+                "id": 4476,
+                "name": "Vaccination History: Administration Date",
+                "alias": "administrationDate",
+                "type": "date"
+            },
+            {
+                "id": 4477,
+                "name": "Vaccination History: Vaccine Received",
+                "alias": "vaccineReceived",
+                "type": "list"
+            },
+            {
+                "id": 4478,
+                "name": "Vaccination History: Dosage",
+                "alias": "dosage",
+                "type": "list"
+            },
+            {
+                "id": 4479,
+                "name": "Vaccination History: Verified",
+                "alias": "verified",
+                "type": "checkbox"
+            },
+            {
+                "id": 4480,
+                "name": "Vaccination History: Date Verified",
+                "alias": "dateVerified",
+                "type": "date"
+            },
+            {
+                "id": 4481,
+                "name": "Vaccination History: Office Eligible Date",
+                "alias": "officeEligibleDate",
+                "type": "date"
+            }
+        ]
+    },
+    {
+        "alias": "employeeCovidVaccinationExemptions",
+        "fields": [
+            {
+                "id": 4483,
+                "name": "Vaccination Exemptions: Exemption Date",
+                "alias": "exemptionDate",
+                "type": "date"
+            },
+            {
+                "id": 4484,
+                "name": "Vaccination Exemptions: Exemption Reason",
+                "alias": "exemptionReason",
+                "type": "list"
+            },
+            {
+                "id": 4485,
+                "name": "Vaccination Exemptions: Exemption Documentation Collected",
+                "alias": "exemptionDocumentationCollected",
+                "type": "checkbox"
+            },
+            {
+                "id": 4486,
+                "name": "Vaccination Exemptions: Comments",
+                "alias": "comments",
+                "type": "textarea"
+            }
+        ]
+    },
+    {
+        "alias": "employeeCovidExposures",
+        "fields": [
+            {
+                "id": 4488,
+                "name": "Exposure Tracker: Exposure Date",
+                "alias": "exposureDate",
+                "type": "date"
+            },
+            {
+                "id": 4489,
+                "name": "Exposure Tracker: Vaccination Status",
+                "alias": "vaccinationStatus",
+                "type": "list"
+            },
+            {
+                "id": 4490,
+                "name": "Exposure Tracker: Notified",
+                "alias": "notified",
+                "type": "checkbox"
+            },
+            {
+                "id": 4491,
+                "name": "Exposure Tracker: Comments",
+                "alias": "comments",
+                "type": "textarea"
+            }
+        ]
+    },
+    {
+        "alias": "employeeEquityGrants",
+        "fields": [
+            {
+                "id": 4515,
+                "name": "Equity: Grant Type",
+                "alias": "grantTypeId",
+                "type": "list"
+            },
+            {
+                "id": 4516,
+                "name": "Equity: Custom Grant Type Name",
+                "alias": "customGrantTypeName",
+                "type": "text"
+            },
+            {
+                "id": 4513,
+                "name": "Equity: Grant Date",
+                "alias": "grantDate",
+                "type": "date"
+            },
+            {
+                "id": 4514,
+                "name": "Equity: Vesting Start Date",
+                "alias": "vestingStartDate",
+                "type": "date"
+            },
+            {
+                "id": 4517,
+                "name": "Equity: # of Equity Granted",
+                "alias": "numberOfEquityGranted",
+                "type": "int"
+            },
+            {
+                "id": 4518,
+                "name": "Equity: Strike Price",
+                "alias": "strikePrice",
+                "type": "currency"
+            },
+            {
+                "id": 4519,
+                "name": "Equity: Vesting Schedule",
+                "alias": "vestingScheduleTypeId",
+                "type": "list"
+            },
+            {
+                "id": 4520,
+                "name": "Equity: Vesting Months",
+                "alias": "vestingMonths",
+                "type": "int"
+            },
+            {
+                "id": 4521,
+                "name": "Equity: Cliff Months",
+                "alias": "cliffMonths",
+                "type": "int"
+            }
+        ]
+    },
+    {
+        "alias": "employeeProjectPayRates",
+        "fields": [
+            {
+                "id": 4537,
+                "name": "Project Pay Rates: Start Date",
+                "alias": "startDate",
+                "type": "date"
+            },
+            {
+                "id": 4538,
+                "name": "Project Pay Rates: End Date",
+                "alias": "endDate",
+                "type": "date"
+            },
+            {
+                "id": 4539,
+                "name": "Project Pay Rates: Project or Task Name",
+                "alias": "projectTask",
+                "type": "project_task"
+            },
+            {
+                "id": 4540,
+                "name": "Project Pay Rates: Pay Rate",
+                "alias": "payRate",
+                "type": "currency"
+            },
+            {
+                "id": 4541,
+                "name": "Project Pay Rates: Comment",
+                "alias": "comment",
+                "type": "textarea"
+            }
+        ]
+    },
+    {
+        "alias": "customAssets",
+        "fields": [
+            {
+                "id": 4372,
+                "name": "Asset Category",
+                "alias": "customAssetCategory1",
+                "type": "list"
+            },
+            {
+                "id": 4373,
+                "name": "Asset Description",
+                "alias": "customAssetDescription1",
+                "type": "text"
+            },
+            {
+                "id": 4374,
+                "name": "Serial #",
+                "alias": "customSerial",
+                "type": "text"
+            },
+            {
+                "id": 4376,
+                "name": "Date Assigned",
+                "alias": "customDateAssigned",
+                "type": "date"
+            },
+            {
+                "id": 4377,
+                "name": "Date Returned",
+                "alias": "customDateReturned1",
+                "type": "date"
+            }
+        ]
+    }
+]
