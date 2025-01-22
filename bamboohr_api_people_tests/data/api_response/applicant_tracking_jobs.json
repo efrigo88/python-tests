@@ -1,0 +1,212 @@
+[
+    {
+        "id": 22,
+        "title": {
+            "id": null,
+            "label": "Financial Analyst"
+        },
+        "postedDate": "2025-02-15T20:21:18+00:00",
+        "location": {
+            "id": 18352,
+            "label": "Salt Lake City, Utah",
+            "address": {
+                "name": "Remote Worker",
+                "description": null,
+                "addressLine1": " ",
+                "addressLine2": null,
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "zipcode": "84042",
+                "country": "United States",
+                "phoneNumber": null
+            }
+        },
+        "department": {
+            "id": 18259,
+            "label": "Finance"
+        },
+        "status": {
+            "id": 1,
+            "label": "Open"
+        },
+        "newApplicantsCount": 1,
+        "activeApplicantsCount": 1,
+        "totalApplicantsCount": 1,
+        "postingUrl": "https://muttclip.bamboohr.com/jobs/view.php?id=22"
+    },
+    {
+        "id": 21,
+        "title": {
+            "id": null,
+            "label": "Marketing Manager"
+        },
+        "postedDate": "2025-02-15T16:05:02+00:00",
+        "location": {
+            "id": 18243,
+            "label": "Vancouver, British Columbia",
+            "address": {
+                "name": "Vancouver, Canada",
+                "description": null,
+                "addressLine1": "720 Granville St",
+                "addressLine2": null,
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "zipcode": "V6Z 1E4",
+                "country": "Canada",
+                "phoneNumber": null
+            }
+        },
+        "department": {
+            "id": 18256,
+            "label": "Marketing"
+        },
+        "status": {
+            "id": 1,
+            "label": "Open"
+        },
+        "newApplicantsCount": 1,
+        "activeApplicantsCount": 2,
+        "totalApplicantsCount": 2,
+        "postingUrl": "https://muttclip.bamboohr.com/jobs/view.php?id=21"
+    },
+    {
+        "id": 20,
+        "title": {
+            "id": null,
+            "label": "Software Engineer"
+        },
+        "postedDate": "2025-02-15T20:22:25+00:00",
+        "location": {
+            "id": 18240,
+            "label": "Sydney, New South Wales",
+            "address": {
+                "name": "Sydney, Australia",
+                "description": null,
+                "addressLine1": "201 Elizabeth St",
+                "addressLine2": null,
+                "city": "Sydney",
+                "state": "New South Wales",
+                "zipcode": "2000",
+                "country": "Australia",
+                "phoneNumber": null
+            }
+        },
+        "department": {
+            "id": 18264,
+            "label": "Product"
+        },
+        "status": {
+            "id": 1,
+            "label": "Open"
+        },
+        "newApplicantsCount": 0,
+        "activeApplicantsCount": 4,
+        "totalApplicantsCount": 6,
+        "postingUrl": "https://muttclip.bamboohr.com/jobs/view.php?id=20"
+    },
+    {
+        "id": 19,
+        "title": {
+            "id": null,
+            "label": "General Application"
+        },
+        "postedDate": "2025-01-21T21:43:35+00:00",
+        "location": {
+            "id": 18235,
+            "label": "Lindon, Utah",
+            "address": {
+                "name": "Lindon, Utah",
+                "description": null,
+                "addressLine1": "335 South 560 West",
+                "addressLine2": null,
+                "city": "Lindon",
+                "state": "Utah",
+                "zipcode": "84042",
+                "country": "United States",
+                "phoneNumber": null
+            }
+        },
+        "department": {
+            "id": 18234,
+            "label": "Human Resources"
+        },
+        "status": {
+            "id": 1,
+            "label": "Open"
+        },
+        "newApplicantsCount": 2,
+        "activeApplicantsCount": 6,
+        "totalApplicantsCount": 12,
+        "postingUrl": "https://muttclip.bamboohr.com/jobs/view.php?id=19"
+    },
+    {
+        "id": 18,
+        "title": {
+            "id": null,
+            "label": "Videographer"
+        },
+        "postedDate": "2025-01-22T09:40:51+00:00",
+        "location": {
+            "id": 18235,
+            "label": "Lindon, Utah",
+            "address": {
+                "name": "Lindon, Utah",
+                "description": null,
+                "addressLine1": "335 South 560 West",
+                "addressLine2": null,
+                "city": "Lindon",
+                "state": "Utah",
+                "zipcode": "84042",
+                "country": "United States",
+                "phoneNumber": null
+            }
+        },
+        "department": {
+            "id": 18256,
+            "label": "Marketing"
+        },
+        "status": {
+            "id": 2,
+            "label": "Draft"
+        },
+        "newApplicantsCount": null,
+        "activeApplicantsCount": null,
+        "totalApplicantsCount": 0,
+        "postingUrl": "https://muttclip.bamboohr.com/jobs/view.php?id=18"
+    },
+    {
+        "id": 15,
+        "title": {
+            "id": null,
+            "label": "IT Security Engineer"
+        },
+        "postedDate": "2025-02-15T20:20:12+00:00",
+        "location": {
+            "id": 18238,
+            "label": "Mayfaird, London, City of",
+            "address": {
+                "name": "London, UK",
+                "description": null,
+                "addressLine1": "2/3 Conduit St",
+                "addressLine2": null,
+                "city": "Mayfaird",
+                "state": "London, City of",
+                "zipcode": "W1S 2BX",
+                "country": "United Kingdom",
+                "phoneNumber": null
+            }
+        },
+        "department": {
+            "id": 18251,
+            "label": "IT"
+        },
+        "status": {
+            "id": 1,
+            "label": "Open"
+        },
+        "newApplicantsCount": 0,
+        "activeApplicantsCount": 4,
+        "totalApplicantsCount": 4,
+        "postingUrl": "https://muttclip.bamboohr.com/jobs/view.php?id=15"
+    }
+]

@@ -1,0 +1,174 @@
+{
+    "paginationComplete": true,
+    "applications": [
+        {
+            "id": 48,
+            "appliedDate": "2025-02-23T17:08:59+00:00",
+            "status": {
+                "id": 1,
+                "label": "New"
+            },
+            "rating": null,
+            "applicant": {
+                "id": 110,
+                "firstName": "Janet",
+                "lastName": "Lewis",
+                "avatar": "https://resources.bamboohr.com/employees/photos/initials.php?initials=JL",
+                "email": "jlewis@efficientoffice.com",
+                "source": "other"
+            },
+            "job": {
+                "id": 19,
+                "title": {
+                    "id": null,
+                    "label": "General Application"
+                }
+            }
+        },
+        {
+            "id": 56,
+            "appliedDate": "2025-02-15T22:46:01+00:00",
+            "status": {
+                "id": 1,
+                "label": "New"
+            },
+            "rating": null,
+            "applicant": {
+                "id": 114,
+                "firstName": "James",
+                "lastName": "Garcia",
+                "avatar": "https://resources.bamboohr.com/employees/photos/initials.php?initials=JG",
+                "email": "jamesgarcia@efficientoffice.com",
+                "source": "ZipRecruiter"
+            },
+            "job": {
+                "id": 21,
+                "title": {
+                    "id": null,
+                    "label": "Marketing Manager"
+                }
+            }
+        },
+        {
+            "id": 47,
+            "appliedDate": "2025-02-15T20:07:43+00:00",
+            "status": {
+                "id": 1,
+                "label": "New"
+            },
+            "rating": null,
+            "applicant": {
+                "id": 109,
+                "firstName": "John",
+                "lastName": "Stone",
+                "avatar": "https://resources.bamboohr.com/employees/photos/initials.php?initials=JS",
+                "email": "jstone@efficientoffice.com",
+                "source": "other"
+            },
+            "job": {
+                "id": 19,
+                "title": {
+                    "id": null,
+                    "label": "General Application"
+                }
+            }
+        },
+        {
+            "id": 49,
+            "appliedDate": "2025-02-14T23:45:58+00:00",
+            "status": {
+                "id": 1,
+                "label": "New"
+            },
+            "rating": 4,
+            "applicant": {
+                "id": 111,
+                "firstName": "Emma",
+                "lastName": "Jones",
+                "avatar": "https://resources.bamboohr.com/employees/photos/initials.php?initials=EJ",
+                "email": "email@email.com",
+                "source": "LinkedIn"
+            },
+            "job": {
+                "id": 22,
+                "title": {
+                    "id": null,
+                    "label": "Financial Analyst"
+                }
+            }
+        },
+        {
+            "id": 46,
+            "appliedDate": "2025-02-08T14:10:32+00:00",
+            "status": {
+                "id": 2,
+                "label": "Reviewed"
+            },
+            "rating": 3,
+            "applicant": {
+                "id": 108,
+                "firstName": "Anderson",
+                "lastName": "Pierce",
+                "avatar": "https://resources.bamboohr.com/employees/photos/initials.php?initials=AP",
+                "email": "apierce@efficientoffice.com",
+                "source": "11"
+            },
+            "job": {
+                "id": 19,
+                "title": {
+                    "id": null,
+                    "label": "General Application"
+                }
+            }
+        },
+        {
+            "id": 45,
+            "appliedDate": "2025-02-07T22:08:37+00:00",
+            "status": {
+                "id": 2,
+                "label": "Reviewed"
+            },
+            "rating": 3,
+            "applicant": {
+                "id": 107,
+                "firstName": "April",
+                "lastName": "Kivlin",
+                "avatar": "https://resources.bamboohr.com/employees/photos/initials.php?initials=AK",
+                "email": "akivlin@efficientoffice.com",
+                "source": "12"
+            },
+            "job": {
+                "id": 19,
+                "title": {
+                    "id": null,
+                    "label": "General Application"
+                }
+            }
+        },
+        {
+            "id": 38,
+            "appliedDate": "2025-01-21T22:19:14+00:00",
+            "status": {
+                "id": 7,
+                "label": "Put on Hold"
+            },
+            "rating": 4,
+            "applicant": {
+                "id": 100,
+                "firstName": "Kelli",
+                "lastName": "Colburn",
+                "avatar": "https://resources.bamboohr.com/employees/photos/initials.php?initials=KC",
+                "email": "kcolburn@efficientoffice.com",
+                "source": "12"
+            },
+            "job": {
+                "id": 19,
+                "title": {
+                    "id": null,
+                    "label": "General Application"
+                }
+            }
+        }
+    ],
+    "nextPageUrl": null
+}
