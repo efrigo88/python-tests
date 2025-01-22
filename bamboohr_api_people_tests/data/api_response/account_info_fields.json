@@ -1429,6 +1429,18 @@
         "alias": "hireDate"
     },
     {
+        "id": 4549,
+        "name": "Hobbies",
+        "type": "text",
+        "alias": "customHobbies"
+    },
+    {
+        "id": 4548,
+        "name": "hobby",
+        "type": "text",
+        "alias": "customhobby"
+    },
+    {
         "id": 1357,
         "name": "Home Email",
         "type": "email",
