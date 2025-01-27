@@ -4,8 +4,8 @@ import logging
 
 # logging config
 logging.basicConfig(
-    #filename="stage_dump.log",
-    #filemode="w",
+    # filename="stage_dump.log",
+    # filemode="w",
     format="%(asctime)s - %(message)s",
     level=logging.INFO,
 )
@@ -54,8 +54,12 @@ aws_session_token_target = aws_session_token
 source_bucket = "f14-datalake-raw-prod"
 target_bucket = "f14-datalake-raw-dev"
 
-source_prefix = "amazon_sp_api/get_fba_fulfillment_current_inventory_data/p_creation_dt=2021-10-27/"
-target_prefix = "amazon_sp_api/get_fba_fulfillment_current_inventory_data/p_creation_dt=2021-10-27/"
+source_prefix = (
+    "amazon_sp_api/get_fba_fulfillment_current_inventory_data/p_creation_dt=2021-10-27/"
+)
+target_prefix = (
+    "amazon_sp_api/get_fba_fulfillment_current_inventory_data/p_creation_dt=2021-10-27/"
+)
 
 
 # Cliente S3 para recorrer el origen
@@ -107,7 +111,6 @@ list_s3_objects_source = s3_items_from_table(
 
 logging.info(f"Cantidad de objetos en source: {len(list_s3_objects_source)}")
 logging.info(list_s3_objects_source[:4])
-
 
 
 # Copying elements one by one
