@@ -9,7 +9,8 @@ package-mode = false
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0.0"
 pytz = "^2022.1"
-pyspark = ">=3.3.1"
+delta-spark = "3.3.0"
+pyspark = "3.5.4"
 scipy = "^1.9.1"
 scikit-learn = "^1.1.2"
 SQLAlchemy = "^1.4.41"
@@ -19,8 +20,6 @@ progressbar2 = "^4.3.2"
 instaloader = "^4.14"
 faker = "^33.3.0"
 flask = "^3.1.0"
-delta = "^0.4.2"
-delta-spark = "^3.3.0"
 black = { extras = ["jupyter"], version = "^24.10.0" }
 jupyter-black = "^0.4.0"
 python-dotenv = "^1.0.1"

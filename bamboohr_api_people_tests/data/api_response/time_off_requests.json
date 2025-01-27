@@ -229,7 +229,7 @@
             "lastChangedByUserId": "2385",
             "status": "approved"
         },
-        "name": "nicolas buzzano",
+        "name": "emiliano frigo",
         "start": "2024-12-29",
         "end": "2024-12-29",
         "created": "2025-01-05",
@@ -335,7 +335,7 @@
             "lastChangedByUserId": "2385",
             "status": "approved"
         },
-        "name": "nicolas buzzano",
+        "name": "emiliano frigo",
         "start": "2025-01-11",
         "end": "2025-01-12",
         "created": "2025-01-06",
@@ -796,6 +796,114 @@
         }
     },
     {
+        "id": "1465",
+        "employeeId": "5",
+        "status": {
+            "lastChanged": "2025-01-07",
+            "lastChangedByUserId": "2385",
+            "status": "approved"
+        },
+        "name": "Ashley Adams",
+        "start": "2025-01-24",
+        "end": "2025-01-25",
+        "created": "2025-01-06",
+        "type": {
+            "id": "78",
+            "name": "Vacation",
+            "icon": "palm-trees"
+        },
+        "amount": {
+            "unit": "hours",
+            "amount": "40"
+        },
+        "actions": {
+            "view": true,
+            "edit": true,
+            "cancel": false,
+            "approve": false,
+            "deny": false,
+            "bypass": false
+        },
+        "dates": {
+            "2025-01-24": "40"
+        },
+        "notes": {
+            "manager": "Going to Egypt"
+        }
+    },
+    {
+        "id": "1467",
+        "employeeId": "7",
+        "status": {
+            "lastChanged": "2025-01-07",
+            "lastChangedByUserId": "2385",
+            "status": "approved"
+        },
+        "name": "Shannon Anderson",
+        "start": "2025-01-26",
+        "end": "2025-01-27",
+        "created": "2025-01-06",
+        "type": {
+            "id": "78",
+            "name": "Vacation",
+            "icon": "palm-trees"
+        },
+        "amount": {
+            "unit": "hours",
+            "amount": "40"
+        },
+        "actions": {
+            "view": true,
+            "edit": true,
+            "cancel": false,
+            "approve": false,
+            "deny": false,
+            "bypass": false
+        },
+        "dates": {
+            "2025-01-26": "40"
+        },
+        "notes": {
+            "manager": "Grand Canyon"
+        }
+    },
+    {
+        "id": "1468",
+        "employeeId": "8",
+        "status": {
+            "lastChanged": "2025-01-18",
+            "lastChangedByUserId": "2385",
+            "status": "canceled"
+        },
+        "name": "emiliano frigo",
+        "start": "2025-01-27",
+        "end": "2025-01-28",
+        "created": "2025-01-06",
+        "type": {
+            "id": "78",
+            "name": "Vacation",
+            "icon": "palm-trees"
+        },
+        "amount": {
+            "unit": "hours",
+            "amount": "16"
+        },
+        "actions": {
+            "view": true,
+            "edit": true,
+            "cancel": false,
+            "approve": false,
+            "deny": false,
+            "bypass": false
+        },
+        "dates": {
+            "2025-01-27": "16"
+        },
+        "notes": {
+            "manager": "Rock Climbing"
+        }
+    },
+    {
         "id": "1642",
         "employeeId": "5",
         "status": {
@@ -831,258 +939,6 @@
         "notes": {}
     },
     {
-        "id": "1609",
-        "employeeId": "16",
-        "status": {
-            "lastChanged": "2025-04-07",
-            "lastChangedByUserId": "2385",
-            "status": "approved"
-        },
-        "name": "Jake Bryan",
-        "start": "2024-12-20",
-        "end": "2024-12-24",
-        "created": "2025-04-06",
-        "type": {
-            "id": "78",
-            "name": "Vacation",
-            "icon": "palm-trees"
-        },
-        "amount": {
-            "unit": "hours",
-            "amount": "32"
-        },
-        "actions": {
-            "view": true,
-            "edit": true,
-            "cancel": false,
-            "approve": false,
-            "deny": false,
-            "bypass": false
-        },
-        "dates": {
-            "2024-12-20": "32"
-        },
-        "notes": {
-            "manager": "Going to Disneyland"
-        }
-    },
-    {
-        "id": "1610",
-        "employeeId": "17",
-        "status": {
-            "lastChanged": "2025-04-07",
-            "lastChangedByUserId": "2385",
-            "status": "approved"
-        },
-        "name": "Dorothy Chou",
-        "start": "2024-12-22",
-        "end": "2024-12-25",
-        "created": "2025-04-06",
-        "type": {
-            "id": "78",
-            "name": "Vacation",
-            "icon": "palm-trees"
-        },
-        "amount": {
-            "unit": "hours",
-            "amount": "32"
-        },
-        "actions": {
-            "view": true,
-            "edit": true,
-            "cancel": false,
-            "approve": false,
-            "deny": false,
-            "bypass": false
-        },
-        "dates": {
-            "2024-12-22": "32"
-        },
-        "notes": {
-            "manager": "Vacation"
-        }
-    },
-    {
-        "id": "1611",
-        "employeeId": "18",
-        "status": {
-            "lastChanged": "2025-04-07",
-            "lastChangedByUserId": "2385",
-            "status": "approved"
-        },
-        "name": "Javier Cruz",
-        "start": "2024-12-22",
-        "end": "2024-12-24",
-        "created": "2025-04-06",
-        "type": {
-            "id": "78",
-            "name": "Vacation",
-            "icon": "palm-trees"
-        },
-        "amount": {
-            "unit": "hours",
-            "amount": "32"
-        },
-        "actions": {
-            "view": true,
-            "edit": true,
-            "cancel": false,
-            "approve": false,
-            "deny": false,
-            "bypass": false
-        },
-        "dates": {
-            "2024-12-22": "32"
-        },
-        "notes": {
-            "manager": "Traveling to Europe"
-        }
-    },
-    {
-        "id": "1612",
-        "employeeId": "19",
-        "status": {
-            "lastChanged": "2025-04-07",
-            "lastChangedByUserId": "2385",
-            "status": "approved"
-        },
-        "name": "Shelly Cluff",
-        "start": "2024-12-22",
-        "end": "2024-12-24",
-        "created": "2025-04-06",
-        "type": {
-            "id": "78",
-            "name": "Vacation",
-            "icon": "palm-trees"
-        },
-        "amount": {
-            "unit": "hours",
-            "amount": "32"
-        },
-        "actions": {
-            "view": true,
-            "edit": true,
-            "cancel": false,
-            "approve": false,
-            "deny": false,
-            "bypass": false
-        },
-        "dates": {
-            "2024-12-22": "32"
-        },
-        "notes": {
-            "manager": "Going to Vegas Baby!"
-        }
-    },
-    {
-        "id": "1613",
-        "employeeId": "4",
-        "status": {
-            "lastChanged": "2025-04-07",
-            "lastChangedByUserId": "2385",
-            "status": "approved"
-        },
-        "name": "Charlotte Abbott",
-        "start": "2024-12-23",
-        "end": "2024-12-25",
-        "created": "2025-04-06",
-        "type": {
-            "id": "78",
-            "name": "Vacation",
-            "icon": "palm-trees"
-        },
-        "amount": {
-            "unit": "hours",
-            "amount": "32"
-        },
-        "actions": {
-            "view": true,
-            "edit": true,
-            "cancel": false,
-            "approve": false,
-            "deny": false,
-            "bypass": false
-        },
-        "dates": {
-            "2024-12-23": "32"
-        },
-        "notes": {
-            "manager": "Florida!"
-        }
-    },
-    {
-        "id": "1614",
-        "employeeId": "5",
-        "status": {
-            "lastChanged": "2025-04-07",
-            "lastChangedByUserId": "2385",
-            "status": "approved"
-        },
-        "name": "Ashley Adams",
-        "start": "2024-12-23",
-        "end": "2024-12-25",
-        "created": "2025-04-06",
-        "type": {
-            "id": "78",
-            "name": "Vacation",
-            "icon": "palm-trees"
-        },
-        "amount": {
-            "unit": "hours",
-            "amount": "32"
-        },
-        "actions": {
-            "view": true,
-            "edit": true,
-            "cancel": false,
-            "approve": false,
-            "deny": false,
-            "bypass": false
-        },
-        "dates": {
-            "2024-12-23": "32"
-        },
-        "notes": {
-            "manager": "personal time"
-        }
-    },
-    {
-        "id": "1616",
-        "employeeId": "7",
-        "status": {
-            "lastChanged": "2025-04-07",
-            "lastChangedByUserId": "2385",
-            "status": "approved"
-        },
-        "name": "Shannon Anderson",
-        "start": "2024-12-24",
-        "end": "2024-12-27",
-        "created": "2025-04-06",
-        "type": {
-            "id": "78",
-            "name": "Vacation",
-            "icon": "palm-trees"
-        },
-        "amount": {
-            "unit": "hours",
-            "amount": "32"
-        },
-        "actions": {
-            "view": true,
-            "edit": true,
-            "cancel": false,
-            "approve": false,
-            "deny": false,
-            "bypass": false
-        },
-        "dates": {
-            "2024-12-24": "32"
-        },
-        "notes": {
-            "manager": "Expecting new baby"
-        }
-    },
-    {
         "id": "1446",
         "employeeId": "8",
         "status": {
@@ -1090,7 +946,7 @@
             "lastChangedByUserId": "2385",
             "status": "approved"
         },
-        "name": "nicolas buzzano",
+        "name": "emiliano frigo",
         "start": "2025-01-02",
         "end": "2025-01-02",
         "created": "2025-01-05",
@@ -1189,6 +1045,42 @@
         }
     },
     {
+        "id": "1466",
+        "employeeId": "6",
+        "status": {
+            "lastChanged": "2025-01-07",
+            "lastChangedByUserId": "2385",
+            "status": "approved"
+        },
+        "name": "Christina Agluinda",
+        "start": "2025-01-25",
+        "end": "2025-01-26",
+        "created": "2025-01-06",
+        "type": {
+            "id": "79",
+            "name": "Sick",
+            "icon": "band-aid"
+        },
+        "amount": {
+            "unit": "hours",
+            "amount": "16"
+        },
+        "actions": {
+            "view": true,
+            "edit": true,
+            "cancel": false,
+            "approve": false,
+            "deny": false,
+            "bypass": false
+        },
+        "dates": {
+            "2025-01-25": "16"
+        },
+        "notes": {
+            "manager": "Food poisoning"
+        }
+    },
+    {
         "id": "1643",
         "employeeId": "10",
         "status": {
@@ -1221,42 +1113,6 @@
             "2025-01-17": "8"
         },
         "notes": {}
-    },
-    {
-        "id": "1615",
-        "employeeId": "6",
-        "status": {
-            "lastChanged": "2025-04-07",
-            "lastChangedByUserId": "2385",
-            "status": "approved"
-        },
-        "name": "Christina Agluinda",
-        "start": "2024-12-24",
-        "end": "2024-12-27",
-        "created": "2025-04-06",
-        "type": {
-            "id": "79",
-            "name": "Sick",
-            "icon": "band-aid"
-        },
-        "amount": {
-            "unit": "hours",
-            "amount": "32"
-        },
-        "actions": {
-            "view": true,
-            "edit": true,
-            "cancel": false,
-            "approve": false,
-            "deny": false,
-            "bypass": false
-        },
-        "dates": {
-            "2024-12-24": "32"
-        },
-        "notes": {
-            "manager": "Got a cold"
-        }
     },
     {
         "id": "1641",
