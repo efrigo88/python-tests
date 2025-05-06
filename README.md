@@ -15,7 +15,7 @@ This is a practice repository where I develop Python projects and experiments on
 
 This project uses several development tools and libraries:
 
-- **Poetry** for dependency management
+- **uv** for dependency management and virtual environment handling
 - **Black** and **isort** for code formatting
 - **Flake8**, **Pylint**, and **MyPy** for code quality and type checking
 - **Pytest** for testing with coverage reporting
@@ -24,26 +24,24 @@ This project uses several development tools and libraries:
 
 ## Setup Instructions
 
-Before you start coding, you need to set up a virtual environment and install the necessary dependencies using Poetry.
+Before you start coding, you need to set up a virtual environment and install the necessary dependencies using uv.
 
-1. **Create a virtual environment:**
+1. **Install uv** (if not already installed):
     ```bash
-    python -m venv .venv
+    curl -LsSf https://astral.sh/uv/install.sh | sh
     ```
 
-2. **Activate the virtual environment:**
-    - On macOS and Linux:
-      ```bash
-      source .venv/bin/activate
-      ```
-    - On Windows:
-      ```bash
-      .\.venv\Scripts\activate
-      ```
-
-3. **Install dependencies with Poetry:**
+2. **Create and activate a virtual environment with uv:**
     ```bash
-    poetry install
+    uv venv
+    source .venv/bin/activate  # On macOS/Linux
+    # or
+    .\.venv\Scripts\activate  # On Windows
+    ```
+
+3. **Install dependencies with uv:**
+    ```bash
+    uv pip install -e .
     ```
 
 4. **Set up pre-commit hooks:**
