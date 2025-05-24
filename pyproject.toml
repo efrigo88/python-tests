@@ -3,7 +3,7 @@ name = "python-tests"
 version = "0.1.0"
 description = "Tests and prototyping coded in python"
 authors = [{ name = "Emiliano Frigo" }]
-requires-python = ">=3.10,<4.0.0"
+requires-python = ">=3.10,<=3.12"
 dependencies = [
     "pytz>=2022.1",
     "black>=25.1.0",
@@ -38,6 +38,7 @@ dependencies = [
     "bump2version>=1.0.1",
     "ffmpeg>=1.4",
     "ffmpeg-python>=0.2.0",
+    "instaloader>=4.14.1",
 ]
 
 [build-system]
