@@ -4,23 +4,25 @@ This is a practice repository where I develop Python projects and experiments on
 
 ## Project Structure
 
-- `bamboohr_api_people_tests/`: Tests and experiments with BambooHR API
-- `notebooks/`: Jupyter notebooks for data analysis and experiments
+- `api_lab/`: API development and testing experiments
+  - Contains API implementations and data handling
 - `spark-lab/`: Apache Spark related experiments and tests
+  - `delta-lab/`: Delta Lake experiments
+  - `learning-spark/`: Spark learning materials and examples
+  - `mnm_playground/`: MNM dataset experiments
+  - `datasets/`: Sample datasets for Spark experiments
 - `slack_channel_configs/`: Slack integration configurations
-- `tests-scripts/`: Various test scripts and utilities
-- `yaml_template_test/`: YAML template testing and experiments
+- `scripts/`: Utility scripts and tools
 
 ## Development Tools
 
 This project uses several development tools and libraries:
 
 - **uv** for dependency management and virtual environment handling
-- **Black** and **isort** for code formatting
-- **Flake8**, **Pylint**, and **MyPy** for code quality and type checking
-- **Pytest** for testing with coverage reporting
-- **Jupyter** for interactive development
+- **Ruff** for fast Python linting and formatting
+- **MyPy** for static type checking
 - **Pre-commit** for git hooks
+- **Jupyter** for interactive development
 
 ## Setup Instructions
 
@@ -55,11 +57,9 @@ Before you start coding, you need to set up a virtual environment and install th
 2. Make your changes
 3. Run the following checks before committing:
    ```bash
-   black .
-   isort .
-   flake8
+   ruff check .
+   ruff format .
    mypy .
-   pytest
    ```
 4. Commit your changes with a descriptive message
 5. Create a pull request
