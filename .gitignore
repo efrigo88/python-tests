@@ -150,3 +150,7 @@ notebooks/delete_conns_from_airbyte.ipynb
 # .cursor folder and its contents
 .cursor/
 .cursor/*
+
+
+# Ruff
+.ruff_cache/
