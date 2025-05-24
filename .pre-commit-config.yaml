@@ -1,0 +1,32 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-yaml
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: debug-statements
+
+  - repo: local
+    hooks:
+      - id: ruff
+        name: ruff
+        entry: uv run --only-dev ruff check --force-exclude
+        language: python
+        types_or: [python, pyi, jupyter]
+        args: ["--fix", "--show-fixes"]
+
+      - id: ruff-format
+        name: ruff-format
+        entry: uv run --only-dev ruff format --force-exclude
+        language: python
+        types_or: [python, pyi, jupyter]
+
+      - id: mypy
+        name: mypy
+        entry: uv run --only-dev mypy
+        language: system
+        types: ["python"]
