@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "python-tests"
 version = "0.1.0"
@@ -44,6 +48,15 @@ dependencies = [
     "pre-commit>=4.2.0,<5.0.0",
     "ruff>=0.11.8,<1.0.0",
 ]
+
+[tool.setuptools.packages.find]
+include = [
+    "api_lab*",
+    "aws_bedrock*",
+    "aws_dynamodb_sqs*",
+    "slack_channel_configs*",
+]
+exclude = ["scripts*", "spark-lab*"]
 
 [tool.ruff]
 # Exclude a variety of commonly ignored directories.
